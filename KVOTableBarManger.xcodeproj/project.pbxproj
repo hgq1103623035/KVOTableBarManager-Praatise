@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044F7BBE1C771B220090C0F0 /* ShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 044F7BBD1C771B220090C0F0 /* ShareManager.m */; };
+		044F7BC11C771D920090C0F0 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044F7BC01C771D920090C0F0 /* FirstViewController.m */; };
+		044F7BC41C771DA00090C0F0 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044F7BC31C771DA00090C0F0 /* SecondViewController.m */; };
+		044F7BC71C771DB20090C0F0 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044F7BC61C771DB20090C0F0 /* ThirdViewController.m */; };
+		044F7BCA1C771DBE0090C0F0 /* ForthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044F7BC91C771DBE0090C0F0 /* ForthViewController.m */; };
 		0457C0841C76B6A7005C6AE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457C0831C76B6A7005C6AE4 /* main.m */; };
 		0457C0871C76B6A7005C6AE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457C0861C76B6A7005C6AE4 /* AppDelegate.m */; };
 		0457C08A1C76B6A7005C6AE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457C0891C76B6A7005C6AE4 /* ViewController.m */; };
@@ -16,6 +21,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		044F7BBC1C771B220090C0F0 /* ShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareManager.h; sourceTree = "<group>"; };
+		044F7BBD1C771B220090C0F0 /* ShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareManager.m; sourceTree = "<group>"; };
+		044F7BBF1C771D920090C0F0 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		044F7BC01C771D920090C0F0 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		044F7BC21C771DA00090C0F0 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = ../SecondViewController.h; sourceTree = "<group>"; };
+		044F7BC31C771DA00090C0F0 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = ../SecondViewController.m; sourceTree = "<group>"; };
+		044F7BC51C771DB20090C0F0 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		044F7BC61C771DB20090C0F0 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		044F7BC81C771DBE0090C0F0 /* ForthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForthViewController.h; sourceTree = "<group>"; };
+		044F7BC91C771DBE0090C0F0 /* ForthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForthViewController.m; sourceTree = "<group>"; };
 		0457C07F1C76B6A7005C6AE4 /* KVOTableBarManger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVOTableBarManger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0457C0831C76B6A7005C6AE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0457C0851C76B6A7005C6AE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +77,16 @@
 				0457C0861C76B6A7005C6AE4 /* AppDelegate.m */,
 				0457C0881C76B6A7005C6AE4 /* ViewController.h */,
 				0457C0891C76B6A7005C6AE4 /* ViewController.m */,
+				044F7BBC1C771B220090C0F0 /* ShareManager.h */,
+				044F7BBD1C771B220090C0F0 /* ShareManager.m */,
+				044F7BBF1C771D920090C0F0 /* FirstViewController.h */,
+				044F7BC01C771D920090C0F0 /* FirstViewController.m */,
+				044F7BC21C771DA00090C0F0 /* SecondViewController.h */,
+				044F7BC31C771DA00090C0F0 /* SecondViewController.m */,
+				044F7BC51C771DB20090C0F0 /* ThirdViewController.h */,
+				044F7BC61C771DB20090C0F0 /* ThirdViewController.m */,
+				044F7BC81C771DBE0090C0F0 /* ForthViewController.h */,
+				044F7BC91C771DBE0090C0F0 /* ForthViewController.m */,
 				0457C08B1C76B6A7005C6AE4 /* Main.storyboard */,
 				0457C08E1C76B6A7005C6AE4 /* Assets.xcassets */,
 				0457C0901C76B6A7005C6AE4 /* LaunchScreen.storyboard */,
@@ -149,9 +174,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044F7BC41C771DA00090C0F0 /* SecondViewController.m in Sources */,
 				0457C08A1C76B6A7005C6AE4 /* ViewController.m in Sources */,
+				044F7BCA1C771DBE0090C0F0 /* ForthViewController.m in Sources */,
 				0457C0871C76B6A7005C6AE4 /* AppDelegate.m in Sources */,
+				044F7BC11C771D920090C0F0 /* FirstViewController.m in Sources */,
 				0457C0841C76B6A7005C6AE4 /* main.m in Sources */,
+				044F7BBE1C771B220090C0F0 /* ShareManager.m in Sources */,
+				044F7BC71C771DB20090C0F0 /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +328,7 @@
 				0457C0981C76B6A7005C6AE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

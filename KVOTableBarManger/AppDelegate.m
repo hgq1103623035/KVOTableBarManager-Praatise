@@ -7,7 +7,10 @@
 //
 
 #import "AppDelegate.h"
-
+#import "FirstViewController.h"
+#import "SecondViewController.h"
+#import "ThirdViewController.h"
+#import "ForthViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +19,42 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    
+    UITabBarController *tabCtr = [[UITabBarController alloc]init];
+    
+    FirstViewController *firstVC = [[FirstViewController alloc]init];
+    firstVC.view.backgroundColor = [UIColor cyanColor];
+    firstVC.tabBarItem.title = @"第一界面";
+    UITabBarItem *item1 = [[UITabBarItem alloc]initWithTabBarSystemItem:UITabBarSystemItemMostViewed tag:1];
+    firstVC.tabBarItem = item1;
+    UINavigationController *nav1 = [[UINavigationController alloc]initWithRootViewController:firstVC];
+    
+    
+    SecondViewController *secVC = [[SecondViewController alloc]init];
+    secVC.view.backgroundColor = [UIColor redColor];
+    secVC.tabBarItem.title = @"第二界面";
+    UITabBarItem *item2 = [[UITabBarItem alloc]initWithTabBarSystemItem:UITabBarSystemItemHistory tag:2];
+    secVC.tabBarItem = item2;
+    UINavigationController *nav2 = [[UINavigationController alloc]initWithRootViewController:secVC];
+    
+    ThirdViewController *thirdVC = [[ThirdViewController alloc]init];
+    thirdVC.view.backgroundColor = [UIColor yellowColor];
+    thirdVC.tabBarItem.title = @"第三界面";
+    UITabBarItem *item3 = [[UITabBarItem alloc]initWithTabBarSystemItem:UITabBarSystemItemFeatured tag:3];
+    thirdVC.tabBarItem = item3;
+    UINavigationController *nav3 = [[UINavigationController alloc]initWithRootViewController:thirdVC];
+    
+    ForthViewController *forthVC = [[ForthViewController alloc]init];
+    forthVC.view.backgroundColor = [UIColor blueColor];
+    forthVC.tabBarItem.title = @"第四界面";
+    UITabBarItem *item4 = [[UITabBarItem alloc]initWithTabBarSystemItem:UITabBarSystemItemContacts tag:4];
+    forthVC.tabBarItem = item4;
+    UINavigationController *nav4 = [[UINavigationController alloc]initWithRootViewController:forthVC];
+    
+    tabCtr.viewControllers = @[nav1,nav2,nav3,nav4];
+    self.window.rootViewController = tabCtr;
+    
     return YES;
 }
 
